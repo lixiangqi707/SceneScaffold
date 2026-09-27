@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+build/
+dist/
+.eggs/
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs and experiment tracking
+*.log
+*.log.*
+wandb/
+record/
+
+# Data, checkpoints and outputs (never committed)
+playground/
+checkpoints/
+ckpts*/
+outputs/
+*.pth
+*.bin
+*.safetensors
+*.h5
+*.tar
+*.tar.gz
+*.npz
+
+# Generated predictions / metrics
+*.jsonl
+predictions/
+
+# Keep tracked configs
+!scripts/zero1_3d_llava.json
+!scripts/vis/state_attention_cases.example.json

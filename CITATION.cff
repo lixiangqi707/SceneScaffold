@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use SceneScaffold in your research, please cite the paper below."
+title: "SceneScaffold: Active Scene-State Construction for Unified 3D Scene Understanding"
+authors:
+  - family-names: Li
+    given-names: Xiangqi
+  - family-names: Huang
+    given-names: Libo
+  - family-names: Zhao
+    given-names: Jiarui
+  - family-names: Feng
+    given-names: Weilun
+  - family-names: Yang
+    given-names: Chuanguang
+  - family-names: An
+    given-names: Zhulin
+  - family-names: Xu
+    given-names: Yongjun
+year: 2026
+preferred-citation:
+  type: conference-paper
+  title: "SceneScaffold: Active Scene-State Construction for Unified 3D Scene Understanding"
+  collection-title: "Advances in Neural Information Processing Systems (NeurIPS)"
+  year: 2026
+  authors:
+    - family-names: Li
+      given-names: Xiangqi
+    - family-names: Huang
+      given-names: Libo
+    - family-names: Zhao
+      given-names: Jiarui
+    - family-names: Feng
+      given-names: Weilun
+    - family-names: Yang
+      given-names: Chuanguang
+    - family-names: An
+      given-names: Zhulin
+    - family-names: Xu
+      given-names: Yongjun

@@ -1,0 +1,32 @@
+# SceneScaffold - Python dependencies (tested with Python 3.9, CUDA 12.1)
+# PyTorch and the CUDA-specific packages below (flash-attn, spconv) must be installed
+# separately; see README.md "Installation".
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.1.0
+torchvision==0.16.0
+
+transformers==4.31.0
+tokenizers==0.13.3
+sentencepiece==0.1.99
+accelerate==1.10.1
+peft==0.17.1
+deepspeed==0.10.3
+bitsandbytes==0.41.1
+
+numpy==1.26.0
+scipy==1.11.2
+scikit-learn==1.0.2
+Pillow==10.4.0
+tqdm
+shortuuid
+ninja==1.11.1
+
+# 3D backbone utilities
+torch_geometric==2.4.0
+mmengine
+
+# evaluation metrics
+pycocoevalcap
+
+# optional experiment tracking
+wandb==0.16.2
